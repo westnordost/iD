@@ -11,7 +11,13 @@
     },
     "terms": [
         "grass",
-        "wet grass"
+        "wet grass",
+        "waterlogged grass",
+        "wet meadow",
+        "intermittent",
+        "cordgrass",
+        "reeds",
+        "bulrushes"
     ],
     "name": "Marsh"
 }

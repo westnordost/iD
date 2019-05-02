@@ -13,7 +13,13 @@
         "mire",
         "moor",
         "muskeg",
-        "quagmire"
+        "quagmire",
+        "peatland",
+        "peat",
+        "bogland",
+        "waterlogged",
+        "swamp",
+        "marsh"
     ],
     "name": "Wetland"
 }
