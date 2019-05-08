@@ -651,6 +651,12 @@ function writeEnJson(tstrings) {
         var community = YAML.load(data[2]);
 
         var enjson = core;
+
+        for (var key in tstrings) {
+            let preset = tstrings[key];
+            preset.terms = preset.terms.toLowerCase().split(/\s*,+\s*/);
+        }
+
         enjson.en.presets = tstrings;
         enjson.en.imagery = imagery.en.imagery;
         enjson.en.community = community.en;
